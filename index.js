@@ -5,7 +5,7 @@ const bodyparser = require('body-parser');
 const student = require('./Schema/Student');
 const cors = require('cors');
 
-const corsorgin = { origin: 'http://localhost:3000' };
+const corsorgin = { origin: 'http://frontend-cyan-eight-17.vercel.app' };
 
 mongoose.connect('mongodb://localhost:27017/StudentDetails')
 .then(() => {
